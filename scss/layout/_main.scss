@@ -1,0 +1,427 @@
+.main{
+    margin-top: 87px;
+}
+
+.hero__bg{
+    display: none;
+}
+.hero {
+    background-image: url('../../images/png/hero_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: right 0;
+    padding-top: 185px;
+    padding-bottom: 25rem;
+}
+.maximize {
+font-family: $famyli-heading;
+font-style: normal;
+font-weight: $weight-xl;
+font-size: $main-font-size-xl;
+line-height: 71px;
+width: 457px;
+}
+.modern {
+    padding-top: 2.9rem;
+    width: 445px;
+font-family: $famyli-heading;
+font-style: normal;
+font-weight: $weight-body-l;
+font-size: $body-font-size-m;
+line-height: 1.56;
+color: $gray-color;
+padding-bottom: 5.9rem;
+}
+.hero__btn {
+    padding: 1.7rem 3.2rem;
+    background: $bg-linear-color;
+    border-radius: 31.5px;
+    color: $color-white;
+    font-size: $body-font-size-m;
+    font-family: $famyli-heading;
+    font-size: $weight-body-s;
+}
+
+
+
+.hero__btn:hover{
+    background: $btn-main__hover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feature{
+    background-color: #F0F1FF;
+}
+
+.courses {
+    padding-top: 3.4rem;
+    display: grid;
+    // position: relative;
+}
+.grid{
+    max-width: 350px;
+    height: 322px;
+    background-color: $color-white;
+    margin-bottom: 8rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    position: relative;
+}
+.one {
+    background: $bg-linear-color;
+    padding: {
+        top: 64px;
+        left: 3.2rem;
+        right: 3.2rem;
+        bottom: 13.8rem;
+    }
+    border-radius: 1.5rem;
+    color: $color-white;
+    grid-row:  1 / span 2;
+    margin-right: 3rem;
+}
+.two::after{
+    content: " ";
+    position: absolute;
+    background: url('../../images/svg/animation.svg') ;
+    width: 56px;
+    height: 56px;
+    top: -23px;
+    left: 23px;
+}
+.check {
+    font-size: $main-font-size-m;
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-xl;
+}
+.two {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2 ;
+    border-radius: 1.5rem;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    margin-right: 3rem;
+}
+.animation {
+    font-family: $famyli-heading;
+font-style: normal;
+font-weight: $weight-xl;
+font-size: $main-font-size-s;
+color: $dark-blue-color;
+padding-top: 6.4rem;
+padding-left: 3.2rem;
+}
+.learn {
+    width: 286px;
+    padding-top: 2.4rem;
+    padding-left: 3.2rem;
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-body-m;
+    font-size: $body-font-size-m;
+    color: $gray-color;
+    margin-bottom: 5.2rem;
+}
+.three {
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 2 ; 
+    margin-right: 0;
+}
+.desing {
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-xl;
+    font-size: $main-font-size-s;
+    color: $dark-blue-color;
+    padding-top: 6.4rem;
+    padding-left: 3.2rem;
+}
+.create {
+    width: 286px;
+    padding-top: 2.4rem;
+    padding-left: 3.2rem;
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-body-m;
+    font-size: $body-font-size-m;
+    color: $gray-color;
+    margin-bottom: 5.2rem;
+}
+// .four {
+// }
+.photo {
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-xl;
+    font-size: $main-font-size-s;
+    color: $dark-blue-color;
+    padding-top: 6.4rem;
+    padding-left: 3.2rem;
+}
+.explore {
+    width: 286px;
+    padding-top: 2.4rem;
+    padding-left: 3.2rem;
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-body-m;
+    font-size: $body-font-size-m;
+    color: $gray-color;
+    margin-bottom: 5.2rem;
+}
+.five {
+    width: 350px;
+    height: 322px;
+}
+.crypto {
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-xl;
+    font-size: $main-font-size-s;
+    color: $dark-blue-color;
+    padding-top: 6.4rem;
+    padding-left: 3.2rem;
+}
+.need {
+    width: 286px;
+    padding-top: 2.4rem;
+    padding-left: 3.2rem;
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-body-m;
+    font-size: $body-font-size-m;
+    color: $gray-color;
+    margin-bottom: 5.2rem;
+}
+.six {
+    grid-column: 3 / span 4;
+    grid-row: 3 / span 4 ; 
+}
+.business {
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-xl;
+    font-size: $main-font-size-s;
+    color: $dark-blue-color;
+    padding-top: 6.4rem;
+    padding-left: 3.2rem;
+}
+.step {
+    width: 286px;
+    padding-top: 2.4rem;
+    padding-left: 3.2rem;
+    font-family: $famyli-heading;
+    font-style: normal;
+    font-weight: $weight-body-m;
+    font-size: $body-font-size-m;
+    color: $gray-color;
+    margin-bottom: 5.2rem;
+}
+
+
+.three::after{
+    content: " ";
+    position: absolute;
+    background: url('../../images/svg/design.svg') ;
+    width: 56px;
+    height: 56px;
+    top: -23px;
+    left: 23px;
+}
+
+.four::after{
+    content: " ";
+    position: absolute;
+    background: url('../../images/svg/photography.svg') ;
+    width: 56px;
+    height: 56px;
+    top: -23px;
+    left: 23px;
+}
+
+.five::after{
+    content: " ";
+    position: absolute;
+    background: url('../../images/svg/crypto.svg') ;
+    width: 56px;
+    height: 56px;
+    top: -23px;
+    left: 23px;
+}
+.six::after{
+    content: " ";
+    position: absolute;
+    background: url('../../images/svg/business.svg') ;
+    width: 56px;
+    height: 56px;
+    top: -23px;
+    left: 23px;
+}
+
+
+
+
+.courses{
+    padding-bottom: 14rem;
+}
+
+
+.btn{
+    font-family: $famyli-heading;
+font-style: normal;
+font-weight: $weight-body-s;
+font-size: $body-font-size-m;
+line-height: 1.56;
+margin-left: 3.2rem;
+color: $dark-pink-color;
+// margin-top: 5.2rem;
+}
+.btn:hover{
+    color: $light-pink;
+}
+
+
+
+
+@media screen and (max-width:950px) {
+    .hero {
+        background-image: url('../../images/svg/hero-tablet__media.svg') ;
+        background-repeat: no-repeat;
+        background-position: right 0;
+        padding-top: 99px;
+        padding-bottom: 21rem;
+    }
+
+
+    .maximize{
+        font-size: $main-font-size-l ;
+    }
+    .modern {
+    font-size: $body-font-size-s
+    }
+
+
+
+
+
+    // .courses {
+    // }
+    // .grid {
+    // }
+    .one {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        // margin-right: ;
+    }
+    .two {
+        min-width: 340px;
+        grid-column: 2 / 5;
+        grid-row: 1 / 2 ;
+        margin-right: 0;
+
+    }
+
+    .three {
+        grid-column: 1 /  2;
+        grid-row: 2 /  3;
+    }
+    .four {
+        min-width: 340px;
+        grid-column: 2 /  5;
+        grid-row: 2 /  3 ;
+    }
+    .five {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .six {
+        min-width: 340px;
+        grid-column: 2 / 5;
+        grid-row: 3 / 4;
+    }
+
+    // .check {
+    // }
+    // .animation {
+    // }
+    // .desing {
+    // }
+    // .photo {
+    // }
+    // .crypto {
+    // }
+    // .business {
+    // }
+
+    // .learn {
+    // }
+    // .create {
+    // }
+    // .explore {
+    // }
+    // .need {
+    // }
+    // .step {
+    // }
+
+    // .btn {
+    // }
+
+}
+
+
+@media screen and (max-width:680px) {
+    .courses{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero {
+        justify-content: center;
+    }
+    .hero__container {
+        flex-direction: column;
+    }
+    .modern {
+        max-width: 300px;
+    }
+    .maximize{
+        width: 357px;
+    }
+}
+
+
+@media screen and (max-width:380px) {
+    .one{
+        margin-right: 0;
+        height: 12rem;
+    }
+    .hero{
+        padding-top: 0;
+        padding-bottom: 6.6rem;
+    }
+    .hero__bg{
+        padding-top: 4.6rem;
+        width: 300px;
+        display: block;
+    }
+    .hero{
+        background-image: none;
+    }
+    .maximize{
+        width: 330px;
+    }
+}
